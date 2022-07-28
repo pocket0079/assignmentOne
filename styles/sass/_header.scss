@@ -1,6 +1,33 @@
 .wrapper {
     max-width: 90%;
-    width: 1080px;
+    width: 1200px;
     margin: 0 auto;
+}
+
+header{
+    background-image: url(../../panda-sanctuary/assets/header-image.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+
+    .socialsContainer{
+        display: flex;
+        flex-direction: column;
+        color: $white;
+        font-size: 1.7rem;
+    }
+
+    .socialIcon{
+        margin: 7px 0;
+    }
+
+    .headerIconContainer,
+    .headerNav,
+    .navLinks{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
 }
 
