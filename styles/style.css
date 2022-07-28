@@ -235,7 +235,35 @@ html {
   overflow: hidden;
 }
 
-header,
-.blog footer {
+h1,
+.headerNav,
+.bodyText {
+  font-family: "Barlow", sans-serif;
+}
+
+.headerHome,
+h2,
+.readMore,
+.links,
+.footerNav,
+.stayUpdated {
+  font-family: "Offside", cursive;
+}
+
+h1 {
+  line-height: 63.7px;
+  letter-spacing: 0.8px;
+  font-weight: 400;
+  font-size: 68.8px;
   color: #fff;
+}
+
+.headerNav {
+  line-height: 29px;
+}
+
+.wrapper {
+  max-width: 90%;
+  width: 1080px;
+  margin: 0 auto;
 }

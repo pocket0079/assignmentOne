@@ -3,14 +3,34 @@ $deepGreen: #116500;
 $white: #fff;
 $blogFooterBackground: #213c28;
 $aboutBackground: #D6f1E4;
-$baseFont: 'Barlow', 'Comic Sans', cursive;
+$baseFont:  'Barlow', sans-serif;
+$secondaryFont: 'Offside', cursive;
 
-header,
-.blog
-footer {
+
+h1,
+.headerNav,
+.bodyText {
+    font-family: $baseFont;
+}
+
+.headerHome,
+h2,
+.readMore,
+.links,
+.footerNav,
+.stayUpdated {
+        font-family: $secondaryFont;
+}
+
+h1{
+    line-height: 63.7px;
+    letter-spacing: 0.8px;
+    font-weight: 400;
+    font-size: 68.8px;
     color: $white;
 }
 
 .headerNav{
-
+    line-height: 29px;
 }
+
