@@ -10,6 +10,10 @@ header{
     background-position: center;
     min-height: 100vh;
 
+    .headerIconContainer{
+        padding: 55px 0;
+    }
+
     .socialsContainer{
         display: flex;
         flex-direction: column;
