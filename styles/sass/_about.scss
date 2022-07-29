@@ -1,0 +1,25 @@
+.newFriends {
+    background: $aboutBackground;
+}
+
+.aboutHeader{
+    text-align: center;
+    padding: 60px 0;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.galleryImgContainer {
+    width: calc(33.3% - 24px);
+    margin: 0;
+}
+
+.pandaPics {
+    width: 100%;
+    height: auto;
+}

@@ -20,6 +20,7 @@ h2,
 .footerNav,
 .stayUpdated {
         font-family: $secondaryFont;
+        margin: 0;
 }
 
 h1{
@@ -63,5 +64,13 @@ a{
 
 li{
     list-style: none;
+}
+
+.aboutHeader,
+.moreAboutHeader{
+    color: $deepGreen;
+    font-size: 42px;
+    font-weight: 400;
+
 }
 

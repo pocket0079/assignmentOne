@@ -17,7 +17,7 @@
     <header>
         <div class="wrapper">
             <nav class="headerNav">
-                <a href="#" class="headerHome">Panda Sanctuary</a>
+                <a href="#" class="headerHome">Panda <span>Sanctuary</span></a>
                 <ul class="navLinks">
                     <li><a href="#">Home</a></li>
                     <li><a href="#newFriends">About</a></li>
@@ -43,11 +43,11 @@
         <!-- start of about section -->
         <section class="newFriends" id="newFriends">
             <div class="wrapper">
-                <h2>Our New Friends</h2>
+                <h2 class="aboutHeader">Our New Friends</h2>
                     <ul class="gallery">
-                        <li><img src="./assets/gallery-image-1@2x.png" alt="A panda bear eating bamboo leaves "></li>
-                        <li><img src="./assets/gallery-image-2@2x.png" alt="A panda bear resting on a tree"></li>
-                        <li><img src="./assets/gallery-image-3@2x.png" alt="Two panda friends hugging"></li>
+                        <li class="galleryImgContainer"><img src="./assets/gallery-image-1@2x.png" alt="A panda bear eating bamboo leaves " class="pandaPics"></li>
+                        <li class="galleryImgContainer"><img src="./assets/gallery-image-2@2x.png" alt="A panda bear resting on a tree" class="pandaPics"></li>
+                        <li class="galleryImgContainer"><img src="./assets/gallery-image-3@2x.png" alt="Two panda friends hugging" class="pandaPics"></li>
                     </ul>
 
                     <div class="moreAbout">
@@ -55,7 +55,7 @@
                             <img src="./assets/small-box@2x.png" alt="A panda bear sitting in a tree">
                         </div>
                         <div class="moreAboutText">
-                            <h2>More about our park</h2>
+                            <h2 class="moreAboutHeader">More about our park</h2>
                             <p class="bodyText">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit nesciunt aliquid quas numquam deserunt dolorum id? Nesciunt tenetur omnis repellat nihil dolorum ut nulla aliquid quis delectus facere asperiores fugit quod amet, ex unde voluptates voluptate modi temporibus consequuntur quas voluptatum quasi inventore recusandae perferendis? Esse deleniti sint sed earum suscipit expedita harum aut perferendis unde animi velit, ex nemo natus distinctio asperiores autem assumenda similique saepe modi amet reiciendis! Molestias debitis deleniti voluptatibus tenetur provident vero sequi labore reiciendis harum mollitia, molestiae vitae possimus laborum neque voluptates expedita voluptatum? Iusto id non qui. Similique omnis enim distinctio nulla molestias.</p>
                             <a href="#" class="readMore">Read More</a>
                         </div>
@@ -93,13 +93,14 @@
         <section class="links">
             <div class="wrapper">
             <ul>
-                <li><a href="#">Donations</a></li>
-                <li><a href="#">Jobs</a></li>
-                <li><a href="#">Events</a></li>
+                <li><a href="#"><h3>Donations</h3></a></li>
+                <li><a href="#"><h3>Jobs</h3></a></li>
+                <li><a href="#"><h3>Events</h3></a></li>
             </ul>
             </div>
         </section>
         <!-- end of link section -->
+    </main>
 
         <!-- start of footer section -->
         <footer>
@@ -138,12 +139,11 @@
                     <p class="bodyText">Copyright 2022© Juno College</p>
                 </div>
 
-
             </div>
         </footer>
 
 
-    </main>
+
 
 </body>
 </html>

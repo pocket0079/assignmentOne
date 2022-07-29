@@ -248,6 +248,7 @@ h2,
 .footerNav,
 .stayUpdated {
   font-family: "Offside", cursive;
+  margin: 0;
 }
 
 h1 {
@@ -289,6 +290,13 @@ a {
 
 li {
   list-style: none;
+}
+
+.aboutHeader,
+.moreAboutHeader {
+  color: #116500;
+  font-size: 42px;
+  font-weight: 400;
 }
 
 .wrapper {
@@ -333,4 +341,37 @@ header .navLinks {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+.newFriends {
+  background: #D6f1E4;
+}
+
+.aboutHeader {
+  text-align: center;
+  padding: 60px 0;
+}
+
+.gallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0;
+}
+
+.galleryImgContainer {
+  width: calc(33.3% - 24px);
+  margin: 0;
+}
+
+.pandaPics {
+  width: 100%;
+  height: auto;
 }
