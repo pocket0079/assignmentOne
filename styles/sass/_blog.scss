@@ -1,0 +1,22 @@
+.blog{
+    background-color: $blogFooterBackground;
+}
+
+.blogArticleContainer{
+    display: flex;
+    flex-direction: row;
+}
+
+.blogImg{
+    max-width: 50%;
+}
+
+.blogText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 50%;
+    padding: 0 175px;
+}
+
