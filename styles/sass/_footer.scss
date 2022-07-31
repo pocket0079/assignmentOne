@@ -17,6 +17,34 @@ footer{
         flex-direction: row;
     }
 
+    .contactFooter{
+        margin-right: 100px;
+    }
+
+    .footerHeading{
+        padding-bottom: 7px;
+    }
+
+    .emailField {
+        width: 70%;
+        padding: 10px;
+    }
+
+    .subscribeButton {
+    background-color:  $charcoal;
+    border: none;
+    cursor: pointer;
+    padding: 12px 20px;
+}
+
+.footerNav>ul {
+    margin-top: 0;
+
+    li {
+        margin-bottom:  5px;
+    }
+}
+
     .copyright {
         text-align: center;
         background-color: $charcoal;
