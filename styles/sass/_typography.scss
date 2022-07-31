@@ -18,7 +18,8 @@ h2,
 .readMore,
 .links,
 .footerNav,
-.stayUpdated {
+.stayUpdated,
+.footerHeading {
         font-family: $secondaryFont;
         margin: 0;
 }
@@ -79,6 +80,7 @@ li{
     font-size: 20px;
     line-height: 30px;
     letter-spacing: 0.2px;
+    margin: 0;
 }
 .blogArticleContainer {
     color: $white;
@@ -89,3 +91,17 @@ h3{
     font-weight: 400;
     font-size: 1.7rem;
 }
+
+footer{
+    color: $white;
+
+    h4{
+        font-weight: 400;
+        font-size: 1.3rem;
+    }
+
+    p{
+        margin: 7px 0;
+    }
+}
+

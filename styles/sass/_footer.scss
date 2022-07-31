@@ -1,0 +1,26 @@
+footer{
+    background-color: $blogFooterBackground;
+    
+    .stayUpdated{
+        width: 50%;
+    }
+
+    .footerFlexContainer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 80px 0;
+    }
+
+    .footerContactNav{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .copyright {
+        text-align: center;
+        background-color: $charcoal;
+        padding: 5px 0;
+    }
+
+}
