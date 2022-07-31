@@ -310,6 +310,12 @@ li {
   color: #fff;
 }
 
+h3 {
+  color: #116500;
+  font-weight: 400;
+  font-size: 1.7rem;
+}
+
 .wrapper {
   max-width: 90%;
   width: 1200px;
@@ -458,4 +464,37 @@ img {
           align-items: flex-start;
   max-width: 50%;
   padding: 0 175px;
+}
+.blogText .readMore {
+  background-color: #fff;
+  color: #116500;
+}
+
+.links {
+  background-color: #D6f1E4;
+}
+
+h3,
+.linkContainer {
+  margin: 0;
+}
+
+.linkContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 100px 0;
+}
+
+.linkIcons {
+  color: #2c2d2c;
+  font-size: 50px;
+  padding-bottom: 20px;
+}
+
+.linkButton {
+  text-align: center;
 }

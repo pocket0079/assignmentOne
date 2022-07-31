@@ -18,5 +18,10 @@
     align-items: flex-start;
     max-width: 50%;
     padding: 0 175px;
+
+    .readMore{
+        background-color: $white;
+        color: $deepGreen;
+    }
 }
 

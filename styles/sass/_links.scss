@@ -1,0 +1,24 @@
+.links{
+    background-color: $aboutBackground;
+}
+
+h3,
+.linkContainer{
+    margin: 0;
+}
+
+.linkContainer{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 100px 0;
+}
+
+.linkIcons{
+    color: $charcoal;
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+
+.linkButton{
+    text-align: center;
+}
