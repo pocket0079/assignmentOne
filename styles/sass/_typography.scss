@@ -28,19 +28,19 @@ h1{
     line-height: 63.7px;
     letter-spacing: 0.8px;
     font-weight: 400;
-    font-size: 68.8px;
+    font-size: 4.3rem;
     color: $white;
     margin: 0;
     width: 45%;
 }
 
 .headerNav{
-    font-size: 20px;
+    font-size: 1.25rem;
     color: $white;
 }
 
 .navLinks{
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: bold;
     line-height: 29px;
     text-shadow: 2px 4px 6px #000000;
@@ -52,7 +52,7 @@ h1{
 
 
 .headerHome{
-    font-size: 20px;
+    font-size: 1.25rem;
     line-height: 20px;
     width: 10%;
     margin-top: 20px;
@@ -77,10 +77,9 @@ li{
 
 .bodyText{
     font-weight: 400;
-    font-size: 20px;
+    font-size: 1.25rem;
     line-height: 30px;
     letter-spacing: 0.2px;
-    margin: 0;
 }
 .blogArticleContainer {
     color: $white;
@@ -107,7 +106,7 @@ footer{
     }
 
     .footerNav {
-        font-size: 20px;
+        font-size: 1.25rem;
         text-align: end;
     }
 }
