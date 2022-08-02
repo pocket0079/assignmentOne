@@ -1,5 +1,78 @@
 @media (max-width: 768px) {
-    html {
+
+    header{
+        min-height: auto;
+        width: 100%;
+
+    nav .navLinks{
         display: none;
     }
+
+    .mobileNavContainer {
+        display: block;
+        margin: 0 auto;
+        position: absolute;
+        right: 0;
+    }
+
+    .socialsContainer{
+        display: none;
+    }
+
+    } //end of header
+
+//about section
+    .gallery {
+        flex-wrap: wrap;
+    }
+    
+    .galleryImgContainer{
+        width: 47%;
+    }
+
+    .lastGalleryPic {
+        width: 100%;
+        margin-top: 120px;
+    }
+
+    .moreAboutImg {
+        display: none;
+    }
+    
+    .moreAboutText {
+        width: auto;
+    }
+
+    //end of about section
+
+    //startt of blog section
+
+    .blogTitle{
+        margin: 20px 0;
+    }
+    .blogArticleContainer{
+        flex-direction: column-reverse;
+    }
+
+    .secondBlogContainer {
+        flex-direction: column;
+    }
+
+    .blogImg,
+    .blogText {
+        max-width: 100%;
+    }
+
+    .blogText {
+        padding: 0;
+    }
+
+}
+
+@media (min-width: 769px) {
+    .mobileNavContainer {
+        display: none;
+        font-size: 3.5rem;
+    }
+    
 }

@@ -17,6 +17,8 @@ header{
     .socialsContainer{
         display: flex;
         flex-direction: column;
+        position: absolute;
+        right: 10%;
         color: $white;
         font-size: 1.7rem;
     }
@@ -33,5 +35,7 @@ header{
         justify-content: space-between;
     }
 
+
 }
+
 

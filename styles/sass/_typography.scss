@@ -67,12 +67,14 @@ li{
     list-style: none;
 }
 
-.aboutHeader,
-.moreAboutHeader{
+h2{
     color: $deepGreen;
-    font-size: 42px;
+    font-size: 2.62rem;
     font-weight: 400;
+}
 
+.blogTitle{
+    color: $white;
 }
 
 .bodyText{
