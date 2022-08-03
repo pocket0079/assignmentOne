@@ -734,6 +734,18 @@ footer .contactFooter {
 @media (min-width: 769px) {
   .mobileNavContainer {
     display: none;
-    font-size: 3.5rem;
+  }
+}
+@media (max-width: 480px) {
+  header {
+    background-position: 30%;
+    height: 40vh;
+    width: 100%;
+  }
+  header h1 {
+    width: 50%;
+  }
+  .bodyText {
+    line-height: 1.5rem;
   }
 }
