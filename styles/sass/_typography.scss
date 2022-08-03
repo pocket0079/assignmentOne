@@ -6,6 +6,9 @@ $aboutBackground: #D6f1E4;
 $baseFont:  'Barlow', sans-serif;
 $secondaryFont: 'Offside', cursive;
 
+html{
+    font-size: 125%;
+}
 
 h1,
 .headerNav,
@@ -25,13 +28,13 @@ h2,
 }
 
 h1{
-    line-height: 63.7px;
+    line-height: 3.7rem;
     letter-spacing: 0.8px;
     font-weight: 400;
     font-size: 4.3rem;
     color: $white;
     margin: 0;
-    width: 45%;
+    width: 55%;
 }
 
 .headerNav{
@@ -77,10 +80,10 @@ h2{
     color: $white;
 }
 
-.bodyText{
+.blogText, .bodyText{
     font-weight: 400;
-    font-size: 1.25rem;
-    line-height: 30px;
+    font-size: 1rem;
+    line-height: 1.5rem;
     letter-spacing: 0.2px;
 }
 .blogArticleContainer {
@@ -108,8 +111,19 @@ footer{
     }
 
     .footerNav {
-        font-size: 1.25rem;
+        font-size: 1.5rem;
         text-align: end;
     }
+
+}
+
+address>p {
+        font-family: $baseFont;
+        font-style: normal;
+        margin: 0;
+        font-weight: 400;
+        line-height: 1.5rem;
+        letter-spacing: 0.2px;
+        font-size: 1rem;
 }
 

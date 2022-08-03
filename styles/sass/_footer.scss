@@ -21,6 +21,10 @@ footer{
         margin-right: 100px;
     }
 
+    .contactText {
+        margin: 0;
+    }
+
     .footerHeading{
         padding-bottom: 7px;
     }
@@ -50,6 +54,10 @@ footer{
         text-align: center;
         background-color: $charcoal;
         padding: 5px 0;
+    }
+
+    .subSentenceCopyright {
+        margin: 5px 0 10px 0;
     }
 
 }

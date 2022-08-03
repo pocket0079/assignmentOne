@@ -235,6 +235,10 @@ html {
   overflow: hidden;
 }
 
+html {
+  font-size: 125%;
+}
+
 h1,
 .headerNav,
 .bodyText {
@@ -253,13 +257,13 @@ h2,
 }
 
 h1 {
-  line-height: 63.7px;
+  line-height: 3.7rem;
   letter-spacing: 0.8px;
   font-weight: 400;
   font-size: 4.3rem;
   color: #fff;
   margin: 0;
-  width: 45%;
+  width: 55%;
 }
 
 .headerNav {
@@ -303,10 +307,10 @@ h2 {
   color: #fff;
 }
 
-.bodyText {
+.blogText, .bodyText {
   font-weight: 400;
-  font-size: 1.25rem;
-  line-height: 30px;
+  font-size: 1rem;
+  line-height: 1.5rem;
   letter-spacing: 0.2px;
 }
 
@@ -333,8 +337,18 @@ footer .subscribeButton {
   color: #fff;
 }
 footer .footerNav {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   text-align: end;
+}
+
+address > p {
+  font-family: "Barlow", sans-serif;
+  font-style: normal;
+  margin: 0;
+  font-weight: 400;
+  line-height: 1.5rem;
+  letter-spacing: 0.2px;
+  font-size: 1rem;
 }
 
 .wrapper {
@@ -343,11 +357,14 @@ footer .footerNav {
   margin: 0 auto;
 }
 
+span {
+  display: block;
+}
+
 header {
   background-image: url(../../panda-sanctuary/assets/header-image.png);
   background-size: cover;
-  background-position: center;
-  min-height: 100vh;
+  height: 100vh;
 }
 header .headerIconContainer {
   padding: 55px 0;
@@ -443,6 +460,7 @@ img {
 }
 
 .readMore {
+  display: inline-block;
   background-color: #116500;
   padding: 7px 14px 7px;
   border: 5px solid transparent;
@@ -553,6 +571,9 @@ footer .footerContactNav {
 footer .contactFooter {
   margin-right: 100px;
 }
+footer .contactText {
+  margin: 0;
+}
 footer .footerHeading {
   padding-bottom: 7px;
 }
@@ -578,10 +599,14 @@ footer .copyright {
   background-color: #2c2d2c;
   padding: 5px 0;
 }
+footer .subSentenceCopyright {
+  margin: 5px 0 10px 0;
+}
 
 @media (max-width: 768px) {
   header {
-    min-height: auto;
+    background-position: 40%;
+    height: 70vh;
     width: 100%;
   }
   header nav .navLinks {
@@ -591,14 +616,26 @@ footer .copyright {
     display: block;
     margin: 0 auto;
     position: absolute;
-    right: 0;
+    right: 20px;
+    top: 20px;
+    cursor: pointer;
+    font-size: 1.7rem;
   }
   header .socialsContainer {
     display: none;
   }
+  header h1 {
+    font-size: 2rem;
+    line-height: 1.7rem;
+    width: 34%;
+  }
+  h2 {
+    font-size: 1.9rem;
+  }
   .gallery {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+    margin-bottom: 30px;
   }
   .galleryImgContainer {
     width: 47%;
@@ -610,17 +647,32 @@ footer .copyright {
   .moreAboutImg {
     display: none;
   }
+  .moreAboutHeader {
+    text-align: left;
+  }
   .moreAboutText {
     width: auto;
+    text-align: center;
+  }
+  .bodyText {
+    font-size: 1.2rem;
+    text-align: left;
+    line-height: 25px;
+  }
+  .readMore {
+    margin: 25px 0;
   }
   .blogTitle {
-    margin: 20px 0;
+    margin: 40px 0;
   }
   .blogArticleContainer {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
+  }
+  .blogArticle {
+    width: 90%;
   }
   .secondBlogContainer {
     -webkit-box-orient: vertical;
@@ -631,9 +683,52 @@ footer .copyright {
   .blogImg,
 .blogText {
     max-width: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .blogText {
     padding: 0;
+  }
+  .linkContainer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .linkButton {
+    margin-bottom: 40px;
+  }
+  footer .footerFlexContainer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 40px 0;
+  }
+  footer .stayUpdated {
+    width: auto;
+    text-align: center;
+  }
+  footer .emailField {
+    width: 100%;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  footer .subscribeButton {
+    margin-bottom: 35px;
+  }
+  footer .contactText,
+footer .contactFooter {
+    margin: 0;
+  }
+  footer .footerContactNav {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  footer .subSentenceCopyright {
+    text-align: center;
   }
 }
 @media (min-width: 769px) {

@@ -1,7 +1,8 @@
 @media (max-width: 768px) {
 
     header{
-        min-height: auto;
+        background-position: 40%;
+        height: 70vh;
         width: 100%;
 
     nav .navLinks{
@@ -12,18 +13,34 @@
         display: block;
         margin: 0 auto;
         position: absolute;
-        right: 0;
+        right: 20px;
+        top: 20px;
+        cursor: pointer;
+        font-size: 1.7rem;
     }
 
     .socialsContainer{
         display: none;
     }
 
-    } //end of header
+    h1 {
+        font-size: 2rem;
+        line-height: 1.7rem;
+        width: 34%;
+    }
+} 
+
+//end of header
 
 //about section
+
+    h2{
+        font-size: 1.9rem
+    }
+
     .gallery {
         flex-wrap: wrap;
+        margin-bottom: 30px;
     }
     
     .galleryImgContainer{
@@ -38,9 +55,24 @@
     .moreAboutImg {
         display: none;
     }
+
+    .moreAboutHeader {
+        text-align: left;
+    }
     
     .moreAboutText {
         width: auto;
+        text-align: center;
+    }
+
+    .bodyText{
+        font-size: 1.2rem;
+        text-align: left;
+        line-height: 25px;
+    }
+
+    .readMore{
+        margin: 25px 0;
     }
 
     //end of about section
@@ -48,10 +80,14 @@
     //startt of blog section
 
     .blogTitle{
-        margin: 20px 0;
+        margin: 40px 0;
     }
     .blogArticleContainer{
         flex-direction: column-reverse;
+    }
+
+    .blogArticle {
+        width: 90%;
     }
 
     .secondBlogContainer {
@@ -61,11 +97,62 @@
     .blogImg,
     .blogText {
         max-width: 100%;
+        align-items: center;
     }
 
     .blogText {
         padding: 0;
     }
+    //end of blog section
+
+    //start of links section
+
+    .linkContainer {
+        flex-direction: column;
+    }
+
+    .linkButton {
+        margin-bottom: 40px;
+    }
+    //end of links section
+
+    //start of footer section
+    footer{
+        .footerFlexContainer {
+            flex-direction: column;
+            padding: 40px 0;
+        }
+
+        .stayUpdated {
+            width: auto;
+            text-align: center;
+        }
+
+        .emailField {
+            width: 100%;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        .subscribeButton {
+            margin-bottom: 35px;
+        }
+
+        .contactText,
+        .contactFooter{
+            margin: 0;
+        }
+
+        .footerContactNav {
+            justify-content: space-between;
+        }
+
+        .subSentenceCopyright{
+            text-align: center;
+        }
+
+    }
+
 
 }
 
